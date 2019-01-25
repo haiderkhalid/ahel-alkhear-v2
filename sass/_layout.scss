@@ -1,0 +1,53 @@
+section {
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.header {
+    position: relative;
+    height: 95vh;
+    /*background-image: linear-gradient(
+        to right bottom, 
+        rgba(var(--color-primary-light), 0.6) 50%,
+        rgba(var(--color-primary-dark), 0.7)), 
+    url("../img/bg1.jpg");*/
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(#3E64E1, 0.6) 50%,
+        rgba(#7A15B5, 0.7)),
+        url("../img/bg1.jpg");
+    background-size: cover;
+    background-position: top;
+
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
+    &__text-box {
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.section-about {
+    background-color: var(--color-gray-light-1);
+    padding: 15rem 0;
+    margin-top: -15rem; 
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__phone-img {
+        flex: 0 0 30%;
+        padding: 5rem;
+    }
+
+    &__text-box {
+        padding: 0 8rem;
+        flex-basis: 50%;
+    }
+}

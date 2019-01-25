@@ -1,0 +1,35 @@
+:root {
+    // COLORS
+
+    --color-secodary-light: #ffb900;
+    --color-secodary-dark: #ff7730;
+
+    --color-green-light: #008f7a;
+    --color-green-dark: #008e9b;
+
+    --color-primary-light: #3e64e1;
+    --color-primary-dark: #7a15b5;
+    --color-blue-dark: #3070fa;
+
+    --color-gray-light-1: #f7f7f7;
+    --color-gray-light-2: #eee;
+
+    --color-gray-dark: #777;
+}
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // defines what 1rem is
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+

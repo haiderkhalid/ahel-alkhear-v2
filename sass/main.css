@@ -152,7 +152,7 @@
   --color-primary-light: #3e64e1;
   --color-primary-dark: #7a15b5;
   --color-blue-dark: #3070fa;
-  --color-gray-light-1: #f7f7f7;
+  --color-gray-light-1: #f4f4f4;
   --color-gray-light-2: #eee;
   --color-gray-dark: #777;
 }
@@ -170,6 +170,11 @@ html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.temp {
+  height: 200px;
+  background-color: tomato;
 }
 
 body {
@@ -216,7 +221,7 @@ body {
   margin-bottom: 4rem;
 }
 
-.section-about__text-box p {
+.section-download__text-box p {
   font-size: 1.6rem;
   margin-bottom: 5rem;
   text-align: justify;
@@ -253,7 +258,7 @@ section {
           transform: translate(-50%, -50%);
 }
 
-.section-about {
+.section-download {
   background-color: var(--color-gray-light-1);
   padding: 15rem 0;
   margin-top: -15rem;
@@ -269,17 +274,23 @@ section {
           justify-content: center;
 }
 
-.section-about__phone-img {
+.section-download__phone-img {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 30%;
           flex: 0 0 30%;
   padding: 5rem;
 }
 
-.section-about__text-box {
+.section-download__text-box {
   padding: 0 8rem;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
+}
+
+.section-about {
+  padding: 15rem 0;
+  margin-top: -15rem;
+  min-height: 50rem;
 }
 
 .btn li {
@@ -403,7 +414,7 @@ section {
           animation-fill-mode: backwards;
 }
 
-.section-about__phone-img img {
+.section-download__phone-img img {
   display: block;
   width: 32rem;
   height: auto;

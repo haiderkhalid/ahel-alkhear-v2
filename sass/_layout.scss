@@ -32,7 +32,7 @@ section {
     }
 }
 
-.section-about {
+.section-download {
     background-color: var(--color-gray-light-1);
     padding: 15rem 0;
     margin-top: -15rem; 
@@ -50,4 +50,10 @@ section {
         padding: 0 8rem;
         flex-basis: 50%;
     }
+}
+
+.section-about {
+    padding: 15rem 0;
+    margin-top: -15rem;
+    min-height: 50rem;
 }

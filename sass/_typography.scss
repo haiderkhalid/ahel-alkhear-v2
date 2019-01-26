@@ -40,10 +40,21 @@ body {
     margin-bottom: 4rem;
 }
 
-.section-about__text-box {
+.section-download__text-box {
     p{
         font-size: 1.6rem;
         margin-bottom: 5rem;
         text-align: justify;
+    }
+}
+
+.section-about {
+    
+    &__about-us{
+
+    }
+
+    &__team {
+
     }
 }

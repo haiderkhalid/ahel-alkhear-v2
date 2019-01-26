@@ -281,6 +281,53 @@
 }
 
 
+.feature-box{
+    width: 25rem;
+    height: 30rem; 
+    margin: 2rem;
+    background-color: rgba(#fff , .8);
+    font-size: 1.5rem;
+    box-shadow: 0 1.5rem 4rem rgba(#000 , .2);
+    text-align: center;
+    border-radius: 3px;
+    transition: transform .3s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+
+    &__heading-tertury{
+        margin-bottom: 2rem;
+       
+    }
+
+    &__icon{
+        margin-bottom: 1rem;
+        font-size: 6rem;
+        display: inline-block;
+        background-image: linear-gradient(to right , #3e64e1 , #7a15b5);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+
+    &__text{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        width: 70%;
+        margin: 0 auto;
+        
+    }     
+
+    &:hover{
+        transform : translateY(-1.5rem) scale(1.03);
+    }
+    
+   
+}
+
+
 
 
 

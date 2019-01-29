@@ -40,22 +40,25 @@ section {
 
 .section-download {
     background-color: var(--color-gray-light-1);
-    padding: 8rem 0;
-    margin-top: -8rem; 
-    z-index: -1;
+    padding: 8rem 0 6rem 0;
+    margin-top: -7rem; 
     display: flex;
-    align-items: start;
     justify-content: center;
+    align-items: start;
 
     &__phone-img {
-        flex: 0 0 30%;
-        padding: 5rem;
+        flex: 0 0 50%; 
+        height: 65rem;
+        perspective: 150rem;
+        position: relative;
     }
 
     &__text-box {
-        padding: 0 8rem;
+        padding: 0 4rem 0 10rem;
         flex-basis: 50%;
-        margin-top: 5rem;
+        margin-top: 8rem;
+        margin-right: -20rem;
+        backface-visibility: hidden;
     }
 }
 
@@ -63,7 +66,7 @@ section {
     background-color: var(--color-gray-light-1);
     padding: 15rem 0;
     z-index: 0;
-    margin-top: -8rem;
+    //margin-top: -2rem;
     text-align: center;
     background-image: linear-gradient(
         to right bottom, 
@@ -84,7 +87,26 @@ section {
 
 
 .section-about {
-    padding: 15rem 0;
-    margin-top: -15rem;
+    padding: 8rem 0;
     min-height: 50rem;
+    text-align: center;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(#3E64E1, 0.6) 50%,
+        rgba(#7A15B5, 0.7)),
+        url("../img/city.jpg");
+        background-size: cover;
+
+    &__about-us {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    &__team {
+        margin-top: 8rem;
+
+        .row {
+            margin-bottom: 3rem;
+        }
+    }
 }

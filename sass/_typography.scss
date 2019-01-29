@@ -30,19 +30,19 @@ body {
 }
 
 .heading-secondary {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     display: inline-block;
     background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
     background-clip: text; 
     -webkit-background-clip: text;
     color: transparent; 
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .section-download__text-box {
     p{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         margin-bottom: 5rem;
         text-align: justify;
     }
@@ -52,9 +52,28 @@ body {
     
     &__about-us{
 
+        h3 {
+            color: #fff;
+            font-size: 4rem;
+            font-weight: 400;
+            margin-bottom: 2.5rem;   
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.5rem;  
+        }
     }
 
     &__team {
-
+        
+        figcaption {
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.7rem;
+            font-weight: 500;
+            line-height: 120%;
+        }
     }
 }

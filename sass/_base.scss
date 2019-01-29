@@ -11,7 +11,7 @@
     --color-primary-dark: #7a15b5;
     --color-blue-dark: #3070fa;
 
-    --color-gray-light-1: #f4f4f4;
+    --color-gray-light-1: #f2f2f2;
     --color-gray-light-2: #eee;
 
     --color-gray-dark: #777;
@@ -30,6 +30,12 @@ html {
     // defines what 1rem is
     font-size: 62.5%;
     box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

@@ -85,6 +85,24 @@ section {
          }
 }
 
+.section-tutorial {
+    //padding: 15rem 0;
+    background-image: linear-gradient(to right,
+                        rgba(255, 255, 255, 0.5) 0%,
+                        rgba(255, 255, 255, 0.5) 50%, 
+                        rgba(122, 21, 181, 0.3) 50%),
+                      url(../img/city.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+
+.section-partners {
+    background-color: #fff;
+    padding: 12rem 0;
+    text-align: center;
+}
+
 
 .section-about {
     padding: 8rem 0;

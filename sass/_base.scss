@@ -30,6 +30,7 @@ html {
     // defines what 1rem is
     font-size: 62.5%;
     box-sizing: border-box;
+    text-rendering: optimizeLegibility;
 }
 
 .row {

@@ -333,7 +333,7 @@ section > * {
 
 .section-feature {
   background-color: var(--color-gray-light-1);
-  padding: 15rem 0;
+  padding: 20rem 0;
   z-index: 0;
   text-align: center;
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(62, 100, 225, 0.6)), to(rgba(122, 21, 181, 0.7))), url("../img/bg-section-featurs.jpg");
@@ -358,43 +358,21 @@ section > * {
 }
 
 .section-tutorial {
+  padding: 8rem 0;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url(../img/city.jpg);
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5)), url(../img/city.jpg);
   background-size: cover;
-}
-
-.section-partners {
-  background-color: #fff;
-  padding: 12rem 0;
   text-align: center;
 }
 
-.section-about {
-  padding: 8rem 0;
-  min-height: 50rem;
-  text-align: center;
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(50%, rgba(62, 100, 225, 0.6)), to(rgba(122, 21, 181, 0.7))), url(../img/city.jpg);
-  background-image: linear-gradient(to right bottom, rgba(62, 100, 225, 0.6) 50%, rgba(122, 21, 181, 0.7)), url(../img/city.jpg);
-  background-size: cover;
-}
-
-.section-about__about-us {
-  width: 60%;
-  margin: 0 auto;
-}
-
-.section-about__team {
-  margin-top: 8rem;
-}
-
-.section-about__team .row {
-  margin-bottom: 3rem;
+.section-tutorial__header {
+  margin: 7rem 0 -19rem 0;
 }
 
 .section-form {
   margin-top: -10rem;
   min-height: 50rem;
-  padding: 35rem 10rem 20rem 10rem;
+  padding: 30rem 10rem 20rem 10rem;
 }
 
 .book {
@@ -425,10 +403,10 @@ section > * {
 }
 
 .book__text-side p {
-  margin: 4rem 3rem 3rem 0;
+  margin: 4rem 75rem 2rem 0;
   width: 80%;
   color: #dfdbdb;
-  line-height: 1.7;
+  line-height: 2;
   font-size: 1.5rem;
   font-weight: 500;
   display: inline-block;
@@ -456,19 +434,15 @@ section > * {
   margin-bottom: 5rem;
 }
 
-.form__group:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
 .form__input {
-  color: #000;
+  color: #fff;
   font-size: 1.5rem;
   padding: 1rem 2rem;
   border-radius: 2px;
   border: none;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-bottom: 3px solid transparent;
-  width: 90%;
+  background-color: transparent;
+  border-bottom: 3px solid #fff;
+  width: 70%;
   display: block;
   -webkit-transition: all .4s;
   transition: all .4s;
@@ -511,6 +485,7 @@ section > * {
 
 #submit {
   width: auto;
+  border: none;
   background-color: #7A15B5;
   color: #fff;
   border-radius: 3px;
@@ -518,6 +493,7 @@ section > * {
           box-shadow: 0.3rem 0.5rem 0.5rem rgba(255, 255, 255, 0.2);
   -webkit-transition: all .2s;
   transition: all .2s;
+  margin-top: 2rem;
 }
 
 #submit:hover {

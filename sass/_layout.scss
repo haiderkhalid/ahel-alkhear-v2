@@ -64,7 +64,7 @@ section {
 
 .section-feature {
     background-color: var(--color-gray-light-1);
-    padding: 15rem 0;
+    padding: 20rem 0;
     z-index: 0;
     //margin-top: -2rem;
     text-align: center;
@@ -86,7 +86,7 @@ section {
 }
 
 .section-tutorial {
-    //padding: 15rem 0;
+    padding: 8rem 0;
     // background-image: linear-gradient(to right,
     //                     rgba(255, 255, 255, 0.5) 0%,
     //                     rgba(255, 255, 255, 0.5) 50%, 
@@ -94,7 +94,7 @@ section {
     //                   url(../img/city.jpg);
 
 
-                      background-image: linear-gradient(
+    background-image: linear-gradient(
                         to right , 
                         rgba(255, 255, 255, 0.5) 50%,
                         rgba(255, 255, 255, 0.5),
@@ -102,46 +102,51 @@ section {
                         ),
                         url(../img/city.jpg);
                         background-size: cover;
+    text-align: center;
+
+    &__header{
+        margin: 7rem 0 -19rem 0;
+    }
                 
 }
 
 
-.section-partners {
-    background-color: #fff;
-    padding: 12rem 0;
-    text-align: center;
-}
+// .section-partners {
+//     background-color: #fff;
+//     padding: 12rem 0;
+//     text-align: center;
+// }
 
 
-.section-about {
-    padding: 8rem 0;
-    min-height: 50rem;
-    text-align: center;
-    background-image: linear-gradient(
-        to right bottom, 
-        rgba(#3E64E1, 0.6) 50%,
-        rgba(#7A15B5, 0.7)),
-        url(../img/city.jpg);
-        background-size: cover;
+// .section-about {
+//     padding: 8rem 0;
+//     min-height: 50rem;
+//     text-align: center;
+//     background-image: linear-gradient(
+//         to right bottom, 
+//         rgba(#3E64E1, 0.6) 50%,
+//         rgba(#7A15B5, 0.7)),
+//         url(../img/city.jpg);
+//         background-size: cover;
 
-    &__about-us {
-        width: 60%;
-        margin: 0 auto;
-    }
+//     &__about-us {
+//         width: 60%;
+//         margin: 0 auto;
+//     }
 
-    &__team {
-        margin-top: 8rem;
+//     &__team {
+//         margin-top: 8rem;
 
-        .row {
-            margin-bottom: 3rem;
-        }
-    }
-}
+//         .row {
+//             margin-bottom: 3rem;
+//         }
+//     }
+// }
 
 .section-form{
     margin-top: -10rem;
     min-height: 50rem;
-    padding: 35rem 10rem 20rem 10rem ;
+    padding: 30rem 10rem 20rem 10rem ;
    
 }
 
@@ -173,10 +178,10 @@ section {
         }
     p{
 
-        margin:4rem 3rem 3rem 0 ;
+        margin:4rem 75rem 2rem 0 ;
         width: 80%;
         color: #dfdbdb;
-        line-height: 1.7;
+        line-height: 2;
         font-size: 1.5rem;
         font-weight: 500;
         display: inline-block;
@@ -207,22 +212,22 @@ section {
 }
 .form{
     &__group:not(:last-child){
-        margin-bottom: 2rem;
+        // margin-bottom: 2rem;
         
     }
 
     &__input{
-        color: #000;
+        color: #fff;
         font-size: 1.5rem;
         padding: 1rem 2rem;
         border-radius: 2px;
         border: none;
-        background-color: rgba(#fff , .7);
-        border-bottom: 3px solid transparent;
-        width: 90%;
+        background-color:transparent;
+        border-bottom: 3px solid #fff;
+        width: 70%;
         display: block;
         transition: all .4s;
-
+       
 
         &:focus{
             outline: none;
@@ -255,13 +260,18 @@ section {
     }
    
 }
+
 #submit{
     width: auto;
+    border: none;
     background-color: #7A15B5;
     color: #fff;
     border-radius: 3px;
     box-shadow: .3rem .5rem .5rem rgba(#fff , .2);
     transition: all .2s;
+    margin-top: 2rem;
+
+    
 
     &:hover{
         background-color: rgb(150, 61, 201);

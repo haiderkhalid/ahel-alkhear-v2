@@ -1,0 +1,342 @@
+@media (max-width: 600px){
+    html {
+        font-size: 31%;
+    }
+
+    .navigation {
+        &__link {
+
+            &:link,
+            &:visited {
+                display: inline-block;
+                width: 100%;
+                font-size: 4rem;
+                font-weight: 300;
+                padding: 1rem 2rem;
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+    
+                background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+                background-size: 240%;
+                transition: all .4s;
+    
+                span {
+                    display: inline-block;
+                    margin-left: 1.5rem;
+                }
+            }
+    
+            &:hover,
+            &:active {
+                background-position: 100%;
+                color: var(--color-primary-light);
+                transform: translateX(1rem);
+            }
+            
+        }
+
+        &__item {
+            margin: 1rem;
+            width: 32rem;
+        }
+    }
+
+    .heading-secondary {
+        font-size: 4rem;
+    }
+
+    .header__text-box {
+        width: 100%;
+    } 
+
+    .heading-primary {
+        
+
+        &--main {
+            font-size: 8rem;
+        }
+
+        &--sub {
+            font-size: 3rem;
+            word-spacing: 1.5rem;
+        }
+    }
+
+    .btn {
+        &_primary {
+            /* the normal state */
+            &:link,
+            &:visited {
+                padding: 1.5rem 4.5rem;
+                font-size: 2.2rem;
+            }
+        }
+
+        //btn_secondary
+        &_secondary {
+            &:link,
+            &:visited {
+                padding: 1rem 2.2rem;
+                font-size: 2.2rem;
+            }
+        }
+    }
+
+    .section-download {
+        padding: 8rem 0 10rem 0;
+        margin-top: -22.5rem; 
+        display: block;
+    
+        &__phone-img { 
+            height: 60rem;
+            perspective: 150rem;
+            position: relative;
+        }
+    
+        &__text-box {
+            padding: 0 4rem 0 4rem;
+            margin-top: 2rem;
+            margin-right: -0rem;
+            backface-visibility: hidden;
+        }
+
+
+        &__phone-img {
+    
+            &--back {
+                transform: rotateY(0deg);
+            }
+
+            &--front {
+                display: none;
+                opacity: 0;
+            }
+    
+            &:hover &--front {
+                transform: rotateY(0deg);
+            }
+        }
+    }
+
+    .section-download__text-box {
+        p{
+            font-size: 2.5rem;
+        }
+    }
+
+    .section-feature {
+        padding: 15rem 0;
+
+            &__row {
+                flex-wrap: wrap;
+             }
+    }
+
+    .feature-box{
+        margin: 1rem;
+        font-size: 2.2rem;
+        
+    
+        &__heading-tertury{
+            margin-bottom: 2.2rem;
+           
+        }
+    
+        &__icon{
+            font-size: 8rem;
+        }
+    
+    
+        &__text{
+            font-size: 1.8rem;
+        }     
+    
+        &:hover{
+            transform : translateY(-0rem) scale(1);
+        }
+        
+       
+    }
+
+    .section-partners {
+
+        .row {
+            margin: 3rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .item {
+            width: 10rem;
+            height: 10rem; 
+            margin-bottom: 2rem;
+
+            &:not(:last-child) {
+                margin-left: 1rem;
+            }
+        }
+    }
+
+    .section-tutorial {
+        .video-container {
+            &__img {
+                width: 90%; //used 
+            }
+
+            &__video {
+                width: 41rem;
+                height: 24rem;
+            }
+        }
+    }
+
+    .section-about {
+        &__about-us {
+            width: 80%;
+        }
+    
+        &__team {
+            margin: 8rem auto 0 auto;
+            width: 90%;
+    
+            .row {
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+    .shape {
+        width: 12rem;
+        height: 12rem;
+        margin-bottom: 1rem;
+        
+        &:not(:last-child) {
+            margin-left: 1rem;
+        }
+    }
+
+    .section-about {
+    
+        &__about-us{
+    
+            h3 {
+                font-size: 8rem;   
+            }
+    
+            p {
+                font-size: 2.2rem;  
+            }
+        }
+    
+        &__team {
+            
+            figcaption {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .footer-part{
+        width: 100%;
+        font-size: 3rem;
+        
+    
+        .text{
+            padding: 0 2rem;
+            font-size: 80%;
+        }
+       
+    }
+
+    .copy-right {
+        padding: 2rem 0;
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 320px) {
+    .section-download {
+    
+        &__phone-img { 
+            height: 55rem;
+        }
+    }
+
+
+    .feature-box{
+        width: 35rem;
+        height: 40rem; 
+        font-size: 2rem;
+        
+        &__icon{
+            font-size: 10rem;
+        }
+    
+    
+        &__text{
+            font-size: 2.2rem;
+        }     
+    
+        &:hover{
+            transform : translateY(0rem) scale(1);
+        }
+    }
+
+    .section-tutorial {
+        .video-container {
+            &__img {
+                width: 90%; //used 
+            }
+
+            &__video {
+                width: 35.5rem;
+                height: 20.5rem;
+            }
+        }
+    }
+}
+
+
+@media (width: 411px){
+    .section-download {
+    
+        &__phone-img { 
+            height: 70rem;
+        }
+    }
+
+    .section-tutorial {
+        .video-container {
+            &__img {
+                width: 90%; //used 
+            }
+
+            &__video {
+                width: 45.5rem;
+                height: 26.5rem;
+            }
+        }
+    }
+}
+
+@media (width: 414px){
+    .section-download {
+    
+        &__phone-img { 
+            height: 70rem;
+        }
+    }
+
+    .section-tutorial {
+        .video-container {
+            &__img {
+                width: 90%; //used 
+            }
+
+            &__video {
+                width: 45.5rem;
+                height: 26.5rem;
+            }
+        }
+    }
+}

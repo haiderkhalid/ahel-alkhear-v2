@@ -37,10 +37,5 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-.temp  {
-    height: 200px;
-    background-color: tomato;
+    flex-wrap: nowrap;
 }

@@ -728,6 +728,7 @@ section > * {
   width: 25rem;
   min-height: 30rem;
   margin: 2rem 2rem;
+  padding: 0 0;
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
@@ -1098,6 +1099,7 @@ section > * {
     height: 40rem;
     font-size: 2rem;
     margin: 4rem 2rem;
+    padding: 2rem 0;
   }
   .feature-box__icon {
     font-size: 10rem;

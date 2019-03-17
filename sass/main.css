@@ -1120,7 +1120,7 @@ section > * {
   }
 }
 
-@media (width: 411px) {
+@media (width: 414px) {
   .section-download__phone-img {
     height: 70rem;
   }
@@ -1133,7 +1133,7 @@ section > * {
   }
 }
 
-@media (width: 414px) {
+@media (width: 411px) {
   .section-download__phone-img {
     height: 70rem;
   }

@@ -288,8 +288,15 @@ section {
         font-size: 120%;
     }
 
-    
-   
+    a {
+        color:  rgb(173, 170, 170);
+        text-decoration: none;
+        font-size: 120%;
+    }
+
+    a:hover {
+        color: var(--color-primary-light);
+    }
 }
 
 .social-media{

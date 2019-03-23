@@ -254,11 +254,107 @@
     }
 }
 
-@media (max-width: 320px) {
+@media(max-width: 425px){
+    .section-tutorial {
+        .video-container {
+            &__img {
+                width: 90%; //used 
+            }
+
+            &__video {
+                width: 47rem;
+                height: 28rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 414px){
+    .section-download {
+    
+        &__phone-img { 
+            height: 70rem;
+        }
+    }
+
+    .section-tutorial {
+        .video-container {
+            &__img {
+                width: 90%; //used 
+            }
+
+            &__video {
+                width: 45.5rem;
+                height: 26.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 411px){
+    .section-download {
+    
+        &__phone-img { 
+            height: 70rem;
+        }
+    }
+
+    .section-tutorial {
+        .video-container {
+            &__img {
+                width: 90%; //used 
+            }
+
+            &__video {
+                width: 45.5rem;
+                height: 26.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
     .section-download {
     
         &__phone-img { 
             height: 55rem;
+        }
+    }
+
+    .section-tutorial {
+        .video-container {
+            &__img {
+                width: 90%; //used 
+            }
+
+            &__video {
+                width: 41.5rem;
+                height: 24.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .section-tutorial {
+        .video-container {
+            &__img {
+                width: 90%; //used 
+            }
+
+            &__video {
+                width: 40rem;
+                height: 23.3rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .section-download {
+    
+        &__phone-img { 
+            height: 50rem;
         }
     }
 
@@ -298,46 +394,16 @@
     }
 }
 
-@media (width: 414px){
-    .section-download {
-    
-        &__phone-img { 
-            height: 70rem;
-        }
-    }
-
+@media(min-width: 1400px){
     .section-tutorial {
         .video-container {
-            &__img {
-                width: 90%; //used 
-            }
-
             &__video {
-                width: 45.5rem;
-                height: 26.5rem;
+                width: 64rem;
+                height: 37rem;
             }
         }
     }
 }
 
-@media (width: 411px){
-    .section-download {
-    
-        &__phone-img { 
-            height: 70rem;
-        }
-    }
 
-    .section-tutorial {
-        .video-container {
-            &__img {
-                width: 90%; //used 
-            }
 
-            &__video {
-                width: 45.5rem;
-                height: 26.5rem;
-            }
-        }
-    }
-}

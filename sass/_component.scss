@@ -301,9 +301,9 @@
 
 .feature-box{
     width: 25rem;
-    min-height: 30rem; 
+    height: 30rem; 
     margin: 2rem 2rem;
-    padding: 0 0;
+    padding: 2rem 0;
     background-color: rgba(#fff , .8);
     font-size: 1.5rem;
     box-shadow: 0 1.5rem 4rem rgba(#000 , .2);
@@ -311,14 +311,13 @@
     border-radius: 3px;
     transition: transform .3s;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     cursor: pointer;
     
 
     &__heading-tertury{
         margin-bottom: 2rem;
-       
     }
 
     &__icon{
